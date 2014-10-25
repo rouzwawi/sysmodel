@@ -1,0 +1,7 @@
+name: simple-system
+
+components:
+  api-service:
+    foo: aa
+  db:
+    foo: bb
