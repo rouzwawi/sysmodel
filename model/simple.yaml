@@ -1,12 +1,5 @@
 name: simple-system-local
-
-# should actually be node configuration
-components:
-  api-service:
-    visible: true
-    foo: aa
-  db:
-    foo: bb
+visible: true
 
 dependencies:
   db:
