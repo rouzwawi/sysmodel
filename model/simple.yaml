@@ -10,4 +10,4 @@ components:
 
 dependencies:
   db:
-    uri: rouzwawi/sysmodel:model/db
+    uri: spotify:system:sysmodel:db
