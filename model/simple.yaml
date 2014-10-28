@@ -1,9 +1,15 @@
-name: simple-system-local
+system: sysmodel
 visible: true
+
+description: |
+  some arbitrary text here
+  that can span multiple lines
+  and: look like yaml
+    foo: 111
 
 dependencies:
   db:
-    uri: spotify:system:sysmodel:db
+    uri: sysmodel:db
 
 facts:
   foo: bar
