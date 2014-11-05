@@ -1,0 +1,26 @@
+system: corona
+
+services:
+  etcd:
+    image: coreos/etcd
+
+    description: tracking state for deployed apps
+
+  deployer:
+    image: registry.spotify.net:80/corona-deployer:dev
+
+    description: reading state and deploying apps
+
+    dependencies:
+      etcd:
+        id: etcd
+
+  router:
+    image: registry.spotify.net:80/corona-router:dev
+    visible: true
+
+    description: dynamic http router
+
+    dependencies:
+      etcd:
+        id: etcd

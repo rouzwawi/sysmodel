@@ -1,1 +1,2 @@
-system: sysmodel
+db:
+  system: sysmodel
