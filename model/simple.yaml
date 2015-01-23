@@ -1,23 +1,22 @@
-simple:
-  system: sysmodel
-  visible: true
+system: sysmodel
+visible: true
 
-  image: spotify:80/something
+image: spotify:80/something
 
-  description: |
-    some arbitrary text here
-    that can span multiple lines
-    and: look like yaml
-      foo: 111
+description: |
+  some arbitrary text here
+  that can span multiple lines
+  and: look like yaml
+    foo: 111
 
-  dependencies:
-    db:
-      uri: sysmodel:db
+dependencies:
+  db:
+    id: sysmodel:db
 
-  facts:
-    foo: bar
-    bax: quax
-    structured:
-      data: in here
-      and: 1928
-      with: true
+facts:
+  foo: bar
+  bax: quax
+  structured:
+    data: in here
+    and: 1928
+    with: true
