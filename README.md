@@ -1,6 +1,6 @@
 # Simple Service
 
-```
+```yaml
 system: sysmodel
 visible: true
 
