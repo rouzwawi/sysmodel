@@ -2,9 +2,7 @@
 
 ```yaml
 system: sysmodel
-visible: true
-
-image: spotify:80/something
+visibility: public
 
 description: |
   some arbitrary text here with bla bla bla
@@ -17,12 +15,15 @@ dependencies:
     id: sysmodel:db
 
 facts:
+  serviceDiscovery: [some-name, and, more]
+  image: spotify:80/something
   foo: bar
   bax: quax
   structured:
     data: in here
     and: 1928
     with: true
+
 ```
 
 And this is only an example service, with more lipsum here...
