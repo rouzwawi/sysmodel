@@ -12,7 +12,7 @@ dependencies:
     id: sysmodel:db
 
 facts:
-  serviceDiscovery: [some-name, and, more]
+  serviceDiscovery: [_spotify-some-name._http, and, more]
   image: spotify:80/something
   foo: bar
   bax: quax
