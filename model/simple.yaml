@@ -2,17 +2,17 @@ system: sysmodel
 visibility: public
 
 description: |
-  some arbitrary text here with bla bla bla
+  some arbitrary text here with
   that can span multiple lines
   and: look like yaml
     foo: 111
 
 dependencies:
   db:
-    id: sysmodel:db
+    id: sysmodel-db
 
 facts:
-  serviceDiscovery: [_spotify-some-name._http, and, more]
+  serviceDiscovery: [_spotify-some-name._http]
   image: spotify:80/something
   foo: bar
   bax: quax
